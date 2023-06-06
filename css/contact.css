@@ -1,11 +1,31 @@
-
 html, body {
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #393D59;
-    color: #F6FBF4;
+    background: #393D59;
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    'header header'
+    'main aside'
+    'footer footer'
+    ;
     }
+    
+    header, main, aside {
+        background: #393D59;
+        color: #F6FBF4;
+    }
+
+    footer {
+        background: #242424;
+        padding: 1em;
+        color: #F6FBF4;
+    }
+
+    header{grid-area: header;}
+    main{grid-area: main;}
+    aside{grid-area: aside;}
+    footer{grid-area: footer;}
 
     nav, 
     #menu-checkbox {
@@ -17,22 +37,22 @@ html, body {
     }
 
     header {
+        background: #242424;
         position: relative;
-        background-color: #242424;
         padding: 10px;
         font-size: 1.5rem;
     }
 
     nav {
-        position: absolute;
         background: #242424;
+        position: absolute;
         left: 0px
     }
 
     nav a{
         display: block;
-        color: #fff;
-        padding: 10px, 20px;
+        color: #F6FBF4;
+        padding: 0.5em;
         font-size: 1.2rem;
     }
 
@@ -50,8 +70,20 @@ html, body {
         margin: 0.4rem;    
     }
 
-    @media (min-width: 600px) {
+    .logo {
+            max-width: 100%;
+    }
+
+    @media (min-width: 40em) {
+        body {
+            grid-template-columns: auto;
+            grid-template-rows: auto;
+        }
+        header {
+             grid-column: span 2;
+        }
         nav {
+            grid-row: span 2;
             display: block;
             position: static; 
             text-align: center;

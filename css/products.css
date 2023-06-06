@@ -1,0 +1,86 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+    background: #393D59;
+    }
+    
+    header {
+        background: #393D59;
+        color: #F6FBF4;
+        padding: 20px;
+    }
+    main {
+        display: flex;
+        justify-content: space-around;
+        background: #393D59;
+        color: #F6FBF4;
+    }
+    footer {
+        background: #242424;
+        padding: 1em;
+        color: #F6FBF4;
+    }
+
+    nav, 
+    #menu-checkbox {
+        display: none;
+    }
+    
+    #menu-checkbox:checked ~ nav {
+        display: block;
+    }
+
+    header {
+        background: #242424;
+        position: relative;
+        padding: 10px;
+        font-size: 1.5rem;
+    }
+
+    nav {
+        background: #242424;
+        position: absolute;
+        left: 0px
+    }
+
+    nav a{
+        display: block;
+        color: #F6FBF4;
+        padding: 0.5em;
+        font-size: 1.2rem;
+    }
+
+    .form__input {
+        display: block;
+    }
+
+    label {
+        display: block;
+        font: 1rem ´Fira Sans´, sans-serif;
+    }
+
+    input,
+    label {
+        margin: 0.4rem;    
+    }
+
+    .product {
+            max-width: 50%;
+    }
+
+    @media (min-width: 40em) {
+        body {
+        }
+        header {
+        }
+        nav {
+            display: block;
+            position: static; 
+            text-align: center;
+        }
+        .hamburger-icon{
+            display: none;
+        }
+        nav a {
+            display: inline-block;
+        }
+    }
