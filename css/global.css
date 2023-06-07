@@ -5,30 +5,7 @@ body {
   color: #f6fbf4;
 }
 
-header {
-  background: #242424;
-  position: relative;
-  padding: 10px;
-  font-size: 1.5rem;
-}
-
-main {
-  padding: 10px;
-}
-
-.game-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.product {
-  margin: 5px;
-  flex: 1;
-  max-width: 200px;
-}
-
+header,
 footer {
   background: #242424;
   padding: 1em;
@@ -57,21 +34,16 @@ nav a {
   font-size: 1.2rem;
 }
 
-.form__input {
-  display: block;
-}
-
-h1 {
-  text-align: center;
-  text-decoration: solid;
-}
-
 @media (min-width: 40em) {
   body {
+    grid-template-columns: auto;
+    grid-template-rows: auto;
   }
   header {
+    grid-column: span 2;
   }
   nav {
+    grid-row: span 2;
     display: block;
     position: static;
     text-align: center;
