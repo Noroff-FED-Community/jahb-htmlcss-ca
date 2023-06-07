@@ -1,71 +1,3 @@
-html,
-body {
-  font-family: "Source Code Pro", monospace;
-  background: #393d59;
-  display: grid;
-  grid-gap: 1em;
-  grid-template-rows: auto;
-  grid-template-areas:
-    "header header"
-    "main aside"
-    "footer footer";
-}
-
-header,
-main,
-aside {
-  background: #393d59;
-  color: #f6fbf4;
-}
-
-footer {
-  background: #242424;
-  padding: 1em;
-  color: #f6fbf4;
-}
-
-header {
-  grid-area: header;
-}
-main {
-  grid-area: main;
-}
-aside {
-  grid-area: aside;
-}
-footer {
-  grid-area: footer;
-}
-
-nav,
-#menu-checkbox {
-  display: none;
-}
-
-#menu-checkbox:checked ~ nav {
-  display: block;
-}
-
-header {
-  background: #242424;
-  position: relative;
-  padding: 10px;
-  font-size: 1.5rem;
-}
-
-nav {
-  background: #242424;
-  position: absolute;
-  left: 0px;
-}
-
-nav a {
-  display: block;
-  color: #f6fbf4;
-  padding: 0.5em;
-  font-size: 1.2rem;
-}
-
 .form__input {
   display: block;
 }
@@ -80,18 +12,7 @@ label {
   margin: 0.4rem;
 }
 
-.logo {
-  max-width: 100%;
-}
-
 @media (min-width: 40em) {
-  body {
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-  }
-  header {
-    grid-column: span 2;
-  }
   nav {
     grid-row: span 2;
     display: block;

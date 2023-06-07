@@ -1,56 +1,16 @@
-html,
-body {
-  font-family: "Source Code Pro", monospace;
-  background: #393d59;
-  color: #f6fbf4;
-}
-
-header {
-  background: #242424;
-  position: relative;
-  padding: 10px;
-  font-size: 1.5rem;
-}
-
 .game-container {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .product {
+  max-width: 1200px;
   margin: 5px;
   flex: 1;
   max-width: 170px;
-}
-
-footer {
-  background: #242424;
-  padding: 1em;
-  color: #f6fbf4;
-}
-
-nav,
-#menu-checkbox {
-  display: none;
-}
-
-#menu-checkbox:checked ~ nav {
-  display: block;
-}
-
-nav {
-  background: #242424;
-  position: absolute;
-  left: 0px;
-}
-
-nav a {
-  display: block;
-  color: #f6fbf4;
-  padding: 0.5em;
-  font-size: 1.2rem;
+  box-shadow: 1px 2px 2px 2px #242424;
 }
 
 .form__input {
@@ -64,20 +24,12 @@ h1 {
   margin: 0.5em;
 }
 
-@media (min-width: 40em) {
-  body {
-  }
-  header {
-  }
-  nav {
-    display: block;
-    position: static;
-    text-align: center;
-  }
-  .hamburger-icon {
-    display: none;
-  }
-  nav a {
-    display: inline-block;
-  }
+.shoppingcart {
+  display: block;
+  margin: 0px;
+  padding: 0px;
+  align-items: start;
+  color: #f6fbf4;
+  background-color: #242424;
+  opacity: 0.3;
 }
