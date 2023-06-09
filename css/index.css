@@ -1,5 +1,7 @@
-.logo {
-  max-width: 100%;
+.homelogo {
+  max-width: 90%;
+  object-fit: scale-down;
+  object-position: bottom;
 }
 
 @media (min-width: 40em) {
