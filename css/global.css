@@ -62,12 +62,13 @@ nav {
   background: #242424;
   position: absolute;
   bottom: 0px;
+  margin-bottom: 60px;
 }
 
 nav a {
   display: block;
-  text-decoration: none;
-  align-items: center;
+  text-decoration: solid;
+  text-align: center;
   color: #f6fbf4;
   padding: 0.7em;
   font-size: 1.2rem;
@@ -76,7 +77,8 @@ nav a {
 .footer {
   display: none;
 }
-@media (min-width: 600px) {
+
+@media (min-width: 40em) {
   body {
     grid-template-columns: auto;
     grid-template-rows: auto;
