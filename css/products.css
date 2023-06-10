@@ -17,14 +17,6 @@
   display: block;
 }
 
-h1 {
-  text-align: center;
-  text-decoration: solid;
-  text-transform: uppercase;
-  font-size: 3em;
-  margin: 0em 0em 0.5em 0em;
-}
-
 .productbox {
   display: flex;
   justify-content: space-between;

@@ -1,0 +1,40 @@
+.checkout-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__input {
+  width: 200px;
+}
+
+.payment {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.send {
+  background: #242424;
+  color: #f6fbf4;
+  text-decoration: solid;
+  text-transform: capitalize;
+  width: 123px;
+  height: 45px;
+  margin: 25px;
+  border-style: ridge;
+}
+
+#visa {
+  padding: 20px;
+}
+
+@media (min-width: 40em) {
+  .checkout-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+}

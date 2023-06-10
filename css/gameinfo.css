@@ -23,7 +23,6 @@
 
 .mainproduct {
   display: block;
-  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   max-width: 70%;
@@ -58,6 +57,9 @@
   margin: 25px;
   border-style: ridge;
 }
+.userreview:hover {
+  opacity: 0.6;
+}
 
 .buy-now {
   background: #242424;
@@ -70,6 +72,10 @@
   border-style: outset;
 }
 
+.buy-now:hover {
+  opacity: 0.6;
+}
+
 i {
   margin: 5px;
 }
@@ -78,9 +84,7 @@ hr {
   width: 80%;
   color: #f6f6f6;
 }
-h1 {
-  text-align: center;
-  text-decoration: solid;
-  text-transform: capitalize;
-  text-decoration-line: underline;
-}
+
+/* .text {
+    border-top: 2px solid;
+} */
