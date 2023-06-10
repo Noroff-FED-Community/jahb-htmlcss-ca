@@ -23,17 +23,31 @@
 
 .mainproduct {
   display: block;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   max-width: 70%;
   padding: 50px;
 }
+
 .button-container {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: center;
 }
+
+.circle {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+.black-circle {
+  color: #242424;
+  margin-top: 20px;
+  font-size: 30px;
+}
+
 .userreview {
   background: #f6f6f6;
   color: #242424;
@@ -62,6 +76,7 @@ i {
 
 hr {
   width: 80%;
+  color: #f6f6f6;
 }
 h1 {
   text-align: center;

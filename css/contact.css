@@ -11,18 +11,3 @@ input,
 label {
   margin: 0.4rem;
 }
-
-@media (min-width: 40em) {
-  nav {
-    grid-row: span 2;
-    display: block;
-    position: static;
-    text-align: center;
-  }
-  .hamburger-icon {
-    display: none;
-  }
-  nav a {
-    display: inline-block;
-  }
-}
