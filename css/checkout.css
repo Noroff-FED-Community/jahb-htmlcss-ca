@@ -10,13 +10,16 @@
   width: 200px;
 }
 
-.payment {
-  display: flex;
-  flex-direction: row;
+.payment-container {
+  display: block;
+  flex-direction: column;
   justify-content: center;
 }
 
-.send {
+.payment {
+  padding-left: 20px;
+}
+.button {
   background: #242424;
   color: #f6fbf4;
   text-decoration: solid;

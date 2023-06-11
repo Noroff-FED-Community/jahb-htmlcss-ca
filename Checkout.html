@@ -32,34 +32,31 @@
   </header>
   <main>
     <h1>checkout</h1>
-    <form action="form-success.php" method="GET">
-      <fieldset class="checkout-container">
-        <legend>Contact Form</legend>
-        <label for="name">Your name</label>
-        <input type="text" name="name" id="name" class="form__input">
-        <label for="phone">Your phone number</label>
-        <input type="tel" name="phone" id="phone" class="form__input">
-        <label for="email">Your email adress</label>
-        <input type="text" name="email" id="email" class="form__input">
-        <label for="adress">Adress</label>
-        <input type="text" name="adress" id="adress" class="form__input">
-        <label for="adress">Zip code</label>
-        <input type="text" name="zipcode" id="zipcode" class="form__input">
-        <label for="adress">City</label>
-        <input type="text" name="city" id="city" class="form__input">
-      </fieldset>
-      <fieldset class="payment.container">
-        <h4>Choose your payment</h4>
-        <div class="payment"><input type="radio" id="visa" name="payment" value="visa">
-          <label for="female">Visa<i class="fa-brands fa-cc-visa"></i></label>
-          <input type="radio" id="vipps" name="payment" value="vipps">
-          <label for="vipps">Vipps </label>
-          <input type="radio" id="paypal" name="payment" value="paypal">
-          <label for="paypal">PayPal</label>
-        </div>
-      </fieldset>
-      <input type="submit" value="Send" class="send">
-    </form>
+    <div class="checkout-container">
+      <label for="name">Your name</label>
+      <input type="text" name="name" id="name" class="form__input">
+      <label for="phone">Your phone number</label>
+      <input type="tel" name="phone" id="phone" class="form__input">
+      <label for="email">Your email adress</label>
+      <input type="text" name="email" id="email" class="form__input">
+      <label for="adress">Adress</label>
+      <input type="text" name="adress" id="adress" class="form__input">
+      <label for="adress">Zip code</label>
+      <input type="text" name="zipcode" id="zipcode" class="form__input">
+      <label for="adress">City</label>
+      <input type="text" name="city" id="city" class="form__input">
+    </div>
+    <div class="payment-container">
+      <h4>Choose your payment</h4>
+      <div class="payment"><input type="radio" id="visa" name="payment" value="visa">
+        <label for="female">Visa<i class="fa-brands fa-cc-visa"></i></label>
+        <input type="radio" id="vipps" name="payment" value="vipps">
+        <label for="vipps">Vipps </label>
+        <input type="radio" id="paypal" name="payment" value="paypal">
+        <label for="paypal">PayPal<i class="fa-brands fa-cc-paypal"></i></label>
+      </div>
+    </div>
+    <button href="Checkout-complet.html">Send</button>
   </main>
   <footer class="footer">&copy; Copyright</footer>
 </body>

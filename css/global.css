@@ -18,7 +18,7 @@ body {
   align-items: center;
   bottom: 0px;
   width: 100%;
-  max-height: 64px;
+  max-height: 100px;
   padding: 0.5em;
   background: #242424;
   /* background-size: contain;
@@ -82,7 +82,8 @@ h1 {
   text-align: center;
   text-decoration: solid;
   text-transform: uppercase;
-  padding-top: 20px;
+  margin-top: 40px;
+  text-shadow: #e533cd;
   /* text-decoration-line: underline; */
 }
 
