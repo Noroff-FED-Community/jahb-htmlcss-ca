@@ -80,10 +80,10 @@ p {
 
 h1 {
   text-align: center;
-  text-decoration: solid;
+  text-shadow: 0.1px -14px 0px #E533CD;
   text-transform: uppercase;
   margin-top: 40px;
-  text-shadow: #e533cd;
+  /*text-shadow: 2px 4px 4px #e533cd;*/
   /* text-decoration-line: underline; */
 }
 

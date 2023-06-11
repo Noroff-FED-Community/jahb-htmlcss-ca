@@ -1,64 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link href="css/global.css" rel="stylesheet" />
+    <link href="css/checkout.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/fe3b43ee88.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+    </style>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Checkout</title>
-  <link href="css/global.css" rel="stylesheet" />
-  <link href="css/checkout.css" rel="stylesheet" />
-  <script src="https://kit.fontawesome.com/fe3b43ee88.js" crossorigin="anonymous"></script>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-  </style>
-</head>
-
-<body>
-  <header>
-    <div class="header">
-      <img src="/images/Logo.png" alt="logo of gamehub">
-      <input type="text" class="search" placeholder="Search">
-      <i class="fa-solid fa-cart-shopping"></i>
-      <input type="checkbox" id="menu-checkbox" />
-      <label for="menu-checkbox" class="hamburger-icon"><i class="fas fa-bars"></i></label>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="products.html">Products</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
-  </header>
-  <main>
-    <h1>checkout</h1>
-    <div class="checkout-container">
-      <label for="name">Your name</label>
-      <input type="text" name="name" id="name" class="form__input">
-      <label for="phone">Your phone number</label>
-      <input type="tel" name="phone" id="phone" class="form__input">
-      <label for="email">Your email adress</label>
-      <input type="text" name="email" id="email" class="form__input">
-      <label for="adress">Adress</label>
-      <input type="text" name="adress" id="adress" class="form__input">
-      <label for="adress">Zip code</label>
-      <input type="text" name="zipcode" id="zipcode" class="form__input">
-      <label for="adress">City</label>
-      <input type="text" name="city" id="city" class="form__input">
-    </div>
-    <div class="payment-container">
-      <h4>Choose your payment</h4>
-      <div class="payment"><input type="radio" id="visa" name="payment" value="visa">
-        <label for="female">Visa<i class="fa-brands fa-cc-visa"></i></label>
-        <input type="radio" id="vipps" name="payment" value="vipps">
-        <label for="vipps">Vipps </label>
-        <input type="radio" id="paypal" name="payment" value="paypal">
-        <label for="paypal">PayPal<i class="fa-brands fa-cc-paypal"></i></label>
+  <body>
+    <header>
+      <div class="header">
+        <a href="index.html"
+          ><img src="/images/Logo.png" alt="logo of gamehub"
+        /></a>
+        <input type="text" class="search" placeholder="Search" />
+        <i class="fa-solid fa-cart-shopping"></i>
+        <input type="checkbox" id="menu-checkbox" />
+        <label for="menu-checkbox" class="hamburger-icon"
+          ><i class="fas fa-bars"></i
+        ></label>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="products.html">Products</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </nav>
       </div>
-    </div>
-    <button href="Checkout-complet.html">Send</button>
-  </main>
-  <footer class="footer">&copy; Copyright</footer>
-</body>
-
+    </header>
+    <main>
+      <h1>checkout</h1>
+      <div class="checkout-container">
+        <label for="name">Your name</label>
+        <input type="text" name="name" id="name" class="form__input" />
+        <label for="phone">Your phone number</label>
+        <input type="tel" name="phone" id="phone" class="form__input" />
+        <label for="email">Your email adress</label>
+        <input type="text" name="email" id="email" class="form__input" />
+        <label for="adress">Adress</label>
+        <input type="text" name="adress" id="adress" class="form__input" />
+        <label for="adress">Zip code</label>
+        <input type="text" name="zipcode" id="zipcode" class="form__input" />
+        <label for="adress">City</label>
+        <input type="text" name="city" id="city" class="form__input" />
+      </div>
+      <div class="payment-container">
+        <h4>Choose your payment</h4>
+        <div class="payment">
+          <input type="radio" id="visa" name="payment" value="visa" />
+          <label for="female">Visa<i class="fa-brands fa-cc-visa"></i></label>
+          <input type="radio" id="vipps" name="payment" value="vipps" />
+          <label for="vipps">Vipps </label>
+          <input type="radio" id="paypal" name="payment" value="paypal" />
+          <label for="paypal"
+            >PayPal<i class="fa-brands fa-cc-paypal"></i
+          ></label>
+        </div>
+      </div>
+      <button href="Checkout-complet.html">Send</button>
+    </main>
+    <footer class="footer">&copy; Copyright</footer>
+  </body>
 </html>
