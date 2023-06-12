@@ -1,13 +1,19 @@
 .game-container {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
+  flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  gap: 10px;
+  gap: 32px;
   margin-top: 40px;
+  /* column-gap: 4rem; */
 }
+/* ping pong, sette flex wrap i media quary */
+/* white wrap - max widt på body 1500px
+maring 0 auto */
 
 .product {
+  display: flex;
   max-width: 1200px;
   margin-bottom: 0;
   flex: 1;
