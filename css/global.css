@@ -63,7 +63,11 @@ nav {
   background: #242424;
   position: absolute;
   bottom: 0px;
-  margin-bottom: 60px;
+  margin-bottom: 64px;
+}
+
+nav a:hover {
+  opacity: 0.3;
 }
 
 nav a {
@@ -76,7 +80,7 @@ nav a {
 }
 
 p {
-  padding: 1rem 5rem;
+  padding: 2rem 3rem;
 }
 
 hr {
@@ -129,6 +133,10 @@ h4 {
   /* background: linear-gradient(45deg, #422864, #393d59); */
 }
 
+/* Symbols from font awsome */
+i {
+  color: #f6fbf4;
+}
 @media (min-width: 40em) {
   body {
     margin-bottom: 0px;
@@ -137,13 +145,14 @@ h4 {
   .header {
     top: 0;
     position: sticky;
+    height: 100px;
   }
 
   nav {
     display: flex;
     flex-direction: row;
     position: static;
-    justify-content: space-around;
+    justify-content: center;
     text-align: center;
     margin-bottom: 0px;
   }
