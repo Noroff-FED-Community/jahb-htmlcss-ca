@@ -11,14 +11,15 @@
 }
 
 .payment-container {
-  display: block;
+  display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .payment {
   padding-left: 20px;
 }
+
 .button {
   background: #242424;
   color: #f6fbf4;
@@ -37,7 +38,7 @@
 @media (min-width: 40em) {
   .checkout-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: nowrap;
   }
 }
