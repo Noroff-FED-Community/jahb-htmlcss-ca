@@ -10,7 +10,7 @@
   <link href="css/checkout.css" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/fe3b43ee88.js" crossorigin="anonymous"></script>
   <style>
-    @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Source+Code+Pro&display=swap');
   </style>
 </head>
 
@@ -32,20 +32,34 @@
   </header>
   <main>
     <h1>checkout</h1>
-    <div class="checkout-container">
-      <label for="name">Your name</label>
-      <input type="text" name="name" id="name" class="form__input" />
-      <label for="phone">Your phone number</label>
-      <input type="tel" name="phone" id="phone" class="form__input" />
-      <label for="email">Your email adress</label>
-      <input type="text" name="email" id="email" class="form__input" />
-      <label for="adress">Adress</label>
-      <input type="text" name="adress" id="adress" class="form__input" />
-      <label for="adress">Zip code</label>
-      <input type="text" name="zipcode" id="zipcode" class="form__input" />
-      <label for="adress">City</label>
-      <input type="text" name="city" id="city" class="form__input" />
+    <div class="container">
+      <div class="checkout-container">
+        <label for="name">First name</label>
+        <input type="text" name="name" id="name" class="form__input" />
+        <label for="name">Last name</label>
+        <input type="text" name="name" id="name" class="form__input" />
+        <label for="phone">Your phone number</label>
+        <input type="tel" name="phone" id="phone" class="form__input" />
+        <label for="email">Your email adress</label>
+        <input type="text" name="email" id="email" class="form__input" />
+        <label for="adress">Adress</label>
+        <input type="text" name="adress" id="adress" class="form__input" />
+        <label for="adress">Zip code</label>
+        <input type="text" name="zipcode" id="zipcode" class="form__input" />
+        <label for="adress">City</label>
+        <input type="text" name="city" id="city" class="form__input" />
+      </div>
+      <div class="checkout-container2">
+        <img src="images/vcard.png" alt="picture of a fake visacard" class="vcard">
+        <label for="name">Card Number</label>
+        <input type="text" placeholder="xxxx xxxx xxxx xxxx" name="name" id="name" class="form__input2" />
+        <label for="number">MM / YY</label>
+        <input type="text" placeholder="MM/YY" name="number" id="number" class="form__input3" />
+        <label for="number">CVC</label>
+        <input type="tel" placeholder="CVC" id="number" class="form__input3" />
+      </div>
     </div>
+    <hr>
     <div class="payment-container">
       <h4>Choose your payment</h4>
       <div class="payment">
@@ -56,10 +70,23 @@
         <input type="radio" id="paypal" name="payment" value="paypal" />
         <label for="paypal">PayPal<i class="fa-brands fa-cc-paypal"></i></label>
       </div>
-    </div>
-    <button href="Checkout-complete.html" class="button">Send</button>
+      <!-- </div> -->
+      <a href="Checkout-complete.html"><button class="button1">purchase</button></a>
   </main>
-  <footer class="footer">&copy; Copyright</footer>
+  <footer class="footer-container">
+    <div class="footer-content">&copy; gamehub corporation</div>
+    <div class="footer-content">terms of use</div>
+    <div class="footer-content">legal & other</div>
+    <div class="footer-content">shipping & delivery</div>
+    <div>
+      <a href="https://www.snapchat.com/"><i class="fa-brands fa-square-snapchat"></i></a>
+      <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+      <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+      <a href="https://www.reddit.com/"><i class="fa-brands fa-square-reddit"></i></a>
+      <a href="https://www.youtube.com/"><i class="fa-brands fa-square-youtube"></i></a>
+      <a href="https://www.twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+    </div>
+  </footer>
 </body>
 
 </html>
