@@ -1,13 +1,35 @@
 .form__input {
-  display: block;
+  /* display: block; */
 }
 
 label {
-  display: block;
-  font: 1rem ´Fira Sans´, sans-serif;
+  /* display: block; */
 }
 
+.fieldset-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.socialmedia-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: center;
+  /* max-width: 100px; */
+}
+
+.i {
+  margin: 20px;
+  size: 50px;
+}
+
+/* 
 input,
 label {
   margin: 0.4rem;
-}
+} */
