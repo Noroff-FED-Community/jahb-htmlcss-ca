@@ -40,14 +40,12 @@
   }
 
   .home-left {
-    /* max-width: 1200px; */
     margin-bottom: 0;
     flex: 1;
     max-width: 170px;
   }
 
   .home-right {
-    /* max-width: 1200px; */
     flex-flow: row wrap;
     margin-bottom: 0;
     flex: 1;

@@ -41,21 +41,8 @@ fieldset {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* align-items: center; */
   justify-content: center;
-  /* max-width: 100px; */
 }
-
-.i {
-  margin: 20px;
-  size: 50px;
-}
-
-/* 
-input,
-label {
-  margin: 0.4rem;
-} */
 
 @media (min-width: 40em) {
   .wrapping-container {
@@ -63,9 +50,10 @@ label {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-template-rows: minmax(100px, auto);
-    place-self: center;
-    gap: 20px;
-    margin-bottom: 20px;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
   }
 
   .info-picture {
@@ -73,14 +61,14 @@ label {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 1;
-    width: 400px;
+    width: 300px;
   }
   .tecguy-picture {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 3;
     grid-row-end: 3;
-    width: 400px;
+    width: 300px;
   }
 
   .fieldset-container {
@@ -96,6 +84,7 @@ label {
     grid-row: 1;
     grid-row-end: 1;
     align-self: center;
+    max-width: 300px;
   }
 
   .text2 {
@@ -104,6 +93,7 @@ label {
     grid-row-start: 3;
     grid-row-end: 3;
     align-self: center;
+    max-width: 300px;
   }
 
   .text3 {
@@ -112,6 +102,7 @@ label {
     grid-row-start: 4;
     grid-row-end: 4;
     align-self: center;
+    max-width: 300px;
   }
   .text4 {
     grid-column-start: 2;
@@ -119,6 +110,7 @@ label {
     grid-row-start: 4;
     grid-row-end: 4;
     align-self: center;
+    max-width: 300px;
   }
   .socialmedia-container1 {
     display: grid;
