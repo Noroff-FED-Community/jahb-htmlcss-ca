@@ -34,9 +34,9 @@ header img {
 
 .search {
   background: #f6fbf4;
-  border-radius: 25px;
-  padding: 10px 30px;
-  max-width: 50px;
+  border-radius: 20px;
+  padding: 8px;
+  width: 100px;
 }
 
 .shoppingcart,
@@ -211,9 +211,11 @@ p {
     text-align: center;
     margin-bottom: 0px;
   }
+
   .hamburger-icon {
     display: none;
   }
+
   nav a {
     display: inline-block;
   }
@@ -221,7 +223,12 @@ p {
   .current {
     text-decoration: underline;
   }
-
+  .search {
+    border-radius: 20px;
+    padding: 8px;
+    width: 200px;
+    margin: 20px;
+  }
   /* Footer design */
   footer {
     display: block;
