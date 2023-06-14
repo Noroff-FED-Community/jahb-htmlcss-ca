@@ -11,9 +11,6 @@
   margin-right: auto;
   width: 300px;
 }
-p {
-  padding: 1rem 2rem;
-}
 
 @media (min-width: 40em) {
   body {
@@ -70,7 +67,7 @@ p {
 
   .text2 {
     grid-column-start: 2;
-    grid-column-end: 2;
+    grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 2;
     align-self: center;
